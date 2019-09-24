@@ -1,0 +1,38 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1 Angela Peng
+        p.lead.text-light
+          | Front End Engineer
+        .portfolio-bio
+          p
+            | I am a curious, lifelong learner and advocate for creativities.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+        ul
+          li Express
+          li JavaScript
+          li React
+          li MongoDB
+          li Node.JS
+          li Html
+          li Bootstrap4
+          li @material-ui
+        h6 Contact Info
+        ul
+          li 206-445-3309
+          li angela_peng@gmail.com
+        //- LinkedIn and Twitter link is just a placeholder for now
+        a.button.expanded(href='') LinkedIn
+        a.button.expanded(
+          href='https://github.com/gigibirdy'
+          target='_blank'
+        ) GitHub
+        a.button.expanded(href='') Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back

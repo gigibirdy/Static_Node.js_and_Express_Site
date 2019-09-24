@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "a random quote generator",
+      "description": "This project displays a random quote with random background color every 3 seconds.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://gigibirdy.github.io/random_quote/",
+      "github_link": "https://github.com/gigibirdy/random_quote",
+      "image_urls": ["images/random_quote_550x550", "images/random_quote_1200x550"]
+    },
+    {
+      "id": 1,
+      "project_name": "interactive form",
+      "description": "This project was developed to show/hide input fields of a form or implement error messages to interact with user. ",
+      "technologies": ["jQuery", "HTML", "CSS"],
+      "live_link": "https://gigibirdy.github.io/interactive-form/",
+      "github_link": "https://github.com/gigibirdy/interactive-form",
+      "image_urls": ["images/interactive_form_550x550", "images/interactive_form_1200x550", "images/interactive_form_1200x550_1"]
+    },
+    {
+      "id": 2,
+      "project_name": "list pagination and filtering",
+      "description": "This web page was designed to display a student list. Pagination and a search bar was implemented by manipulating JavaScript DOM to improve user's experience. One long list will be divided into a series of pages. Each page shows 10 students' info. When specific page link is selected, the background color of the link will change and shows user that it is currently active. When user are keying in student's name, the matching result will display immediately along with a corresponding pagination appended. When no results returned, \"There are no matches\" message will be printed to the web page.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://gigibirdy.github.io/List_Pagination_and_Filtering/",
+      "github_link": "https://github.com/gigibirdy/List_Pagination_and_Filtering",
+      "image_urls": ["images/List_Pagination_and_Filtering_550x550", "images/List_Pagination_and_Filtering_1200x550"]
+    },
+    {
+      "id": 3,
+      "project_name": "oop game",
+      "description": "This project was developed for a phrase hunt game. In each round of the game, player clicks start button to enter the game, a random phrase will be generated, player has 2 minutes to guess all letters contained in this phrase by clicking keys on an onscreen keyboard or pressing keys of their physical keyboard. Player loses the game if misses 5 guesses.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://gigibirdy.github.io/oop_game-v2/",
+      "github_link": "https://github.com/gigibirdy/oop_game-v2",
+      "image_urls": ["images/oop_game_550x550", "images/oop_game_1200x550", "images/oop_game_1200x550_1"]
+    },
+    {
+      "id": 4,
+      "project_name": "public api request",
+      "description": "This project utilized Fetch API to retrieve 12 employees records from randomuserAPI endpoint and append to a webpage. By clicking one of employee cards, a modal window will pop up to show additional information about this employee. Each modal window contains a close button to exit the modal model, a copy button which allows user easily copy content of current modal window, a previous and next button to review previous and next employee information without existing the modal model. Search bar provides instant search result while user is entering search input.",
+      "technologies": ["JavaScript", "Fetch API", "HTML", "CSS"],
+      "live_link": "https://gigibirdy.github.io/Public_API_Requests/",
+      "github_link": "https://github.com/gigibirdy/Public_API_Requests",
+      "image_urls": ["images/public_api_request_550x550", "images/public_api_request_1200x550", "images/public_api_request_1200x550_1"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- add the project title that passed in
+        h1 #{project['project_name'].toUpperCase()}
+
+        //- add the project description that passed in
+        p.lead.text-light
+          | #{project['description']}
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 technologies
+
+        //- iterate over and add the technologies that passed in
+        ul
+          each val in project.technologies
+            li= val
+
+        //- add the project live_link and GitHub_link that passed in
+        a.button.expanded(href=project['live_link'] target='_blank') Live Demo
+        a.button.expanded(href=project['github_link'] target='_blank') GitHub Repo
+
+    //- add the project images src that passed in
+    img.image(src='/static/' + project['image_urls'][1] + '.png')
+    //- add 2nd image if available
+    if project['image_urls'].length > 2
+      img.image(src='/static/' + project['image_urls'][2] + '.png')

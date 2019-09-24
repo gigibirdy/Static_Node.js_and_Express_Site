@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+//- when user is requesting a page that can not be found, a error msg, status code and stack will be printed to page
+  h1= error.message
+  h2= error.status
+  pre= error.stack
